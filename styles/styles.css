@@ -1,20 +1,13 @@
-@font-face {
+ @font-face {
   font-family: "mukta";
   src: url(../fonts/Mukta-Regular.ttf);
-}
-
-@font-face {
-  font-family: "montserrat";
-  src: url(../fonts/Montserrat-Black.ttf);
 }
 
 :root {
   --color1: rgb(225, 225, 225);
   --color2: rgb(205, 203, 203);
-  --font-1: "montserrat";
-  --font-2: "mukta";
+  --font-1: "mukta";
 }
-
 
 html,
 body {
@@ -40,7 +33,7 @@ h1 {
 }
 
 p {
-  font-family: var(--font-2);
+  font-family: var(--font-1);
   font-size: 1.4rem;
   line-height: 1.8rem;
   font-weight: 400;
@@ -55,7 +48,7 @@ pre {
 }
 
 code {
-  font-family: var(--font-2);
+  font-family: var(--font-1);
   font-size: 1.4rem !important;
   line-height: 2rem;
   font-style: italic;
