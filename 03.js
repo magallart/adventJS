@@ -6,7 +6,7 @@ const string5 = '(peluche {) bici';
 const string6 = '(()) bici';
 const string7 = '(a() bici " debería ser inválido';
 
-function isValid(letter) {
+export default function isValid(letter) {
 
   const regEx1 = new RegExp(/\[|\]|\{|\}/); // Contiene {,},[,]
   const regEx2 = new RegExp(/\(\)/); // Contiene ()

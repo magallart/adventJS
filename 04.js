@@ -1,4 +1,4 @@
-function createXmasTree(height) {
+export default function createXmasTree(height) {
   const xmasTree = [];
 
   for (let i = 1; i <= height; i++) {

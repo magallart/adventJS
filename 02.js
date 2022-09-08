@@ -1,6 +1,6 @@
 const carta = 'bici coche balón _playstation bici coche peluche';
 
-function listGifts(letter) {
+export default function listGifts(letter) {
   const giftCount = {};
 
   const giftsFiltered = letter
