@@ -8,9 +8,9 @@ const string7 = '(a() bici " debería ser inválido';
 
 export default function isValid(letter) {
 
-  const regEx1 = new RegExp(/\[|\]|\{|\}/); // Contiene {,},[,]
+  const regEx1 = new RegExp(/\[|\]|\{|\}/); // Contiene los siguientes símbolos '{', '}', '[', ']'
   const regEx2 = new RegExp(/\(\)/); // Contiene ()
-  const regEx3 = new RegExp(/\(*[A-Z|a-z|0-9]\)/); // () estén llenos
+  const regEx3 = new RegExp(/\(*[A-Z|a-z|0-9]\)/); // () Comprueba que los paréntesis estan llenos
   
   if (regEx1.test(letter)) return false;
   if (regEx2.test(letter)) return false;
