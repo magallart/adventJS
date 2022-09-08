@@ -1,4 +1,4 @@
-function daysToXmas(date) {
+export default function daysToXmas(date) {
   const xmasDay = new Date('Dec 25, 2021')
   const differenceMilliseconds = date.getTime() - xmasDay.getTime();
   const differenceDays = Math.floor(differenceMilliseconds / (1000*3600*24));
